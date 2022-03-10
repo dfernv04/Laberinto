@@ -120,7 +120,7 @@ public class Laberinto {
 	}
 	
 	public void resolverSinAsterico(Casilla casActual, Casilla fin, ArrayList<Casilla> solucion,ArrayList<Casilla> solucionAux) {
-		
+		//Ahoira aqui rbdjhf
 		if(casActual.equals(fin)) {
 			compararSoluciones(solucion, solucionAux);
 		}else {
