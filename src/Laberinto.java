@@ -32,6 +32,7 @@ public class Laberinto {
 	
 	public void resolverLaberinto() {
 		int asterisco=0;
+		/* Aqui meto estya basura para probar que tal to*/
 		if((this.matriz[0][0].getCaracter()=='1') || (this.matriz[this.tamanyo-1][this.tamanyo-1].getCaracter()=='1')) {
 			System.out.println("NO.");
 			System.exit(-1);
